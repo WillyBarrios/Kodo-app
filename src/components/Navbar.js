@@ -14,13 +14,13 @@ function Navbar() {
         </Typography>
         {user && (
           <>
-            <Button color="inherit" component={Link} to="/products">
+            <Button color="inherit" component={Link} to="/Products">
               Productos
             </Button>
-            <Button color="inherit" component={Link} to="/sales">
+            <Button color="inherit" component={Link} to="/Sales">
               Ventas
             </Button>
-            <Button color="inherit" component={Link} to="/payment-plans">
+            <Button color="inherit" component={Link} to="/PaymentPlans">
               Planes de Pago
             </Button>
             <Button color="inherit" component={Link} to="/routes">

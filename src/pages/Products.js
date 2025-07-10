@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase';
-import { Table, TableBody, TableCell, TableHead, TableRow, Button, Box } from '@mui/material';
+import { Table, TableBody, TableCell, TableHead, TableRow, Button, Box, Typography } from '@mui/material';
 import ProductForm from '../components/ProductForm';
 
 function Products() {

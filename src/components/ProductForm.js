@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '../ услуги/supabase';
+import { supabase } from '../services/supabase';
 import { TextField, Button, Box, MenuItem, Select, InputLabel, FormControl } from '@mui/material';
 
 function ProductForm({ onProductAdded }) {
